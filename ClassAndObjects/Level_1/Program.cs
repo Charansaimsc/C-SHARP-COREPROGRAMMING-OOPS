@@ -8,9 +8,11 @@ namespace Level_1
             //EmployeeDetails emp = new EmployeeDetails("charan", 101, 10000);
             //emp.DisplayDetails();
 
-            Circle obj = new Circle(10);
-            obj.Display();
+            //Circle obj = new Circle(10);
+            //obj.Display();
 
+            HandleBookDetails obj = new HandleBookDetails("Wings","charan",100);
+            obj.Display();
         }
     }
 }
