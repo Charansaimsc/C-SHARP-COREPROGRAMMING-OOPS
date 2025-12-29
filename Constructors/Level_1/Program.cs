@@ -18,20 +18,30 @@ namespace Level_1
             //    c2.Display();
 
 
-       
-                
-                Book book1 = new Book("C# Programming", "Charan", 499.99);
 
-                // Display details
-                book1.DisplayDetails();
 
-                // Borrow the book
-                book1.BorrowBook();
+            //Book book1 = new Book("C# Programming", "Charan", 499.99);
 
-                // Try borrowing again
-                book1.BorrowBook();
-         
-        
+            //// Display details
+            //book1.DisplayDetails();
+
+            //// Borrow the book
+            //book1.BorrowBook();
+
+            //// Try borrowing again
+            //book1.BorrowBook();
+
+            // Using Default Constructor
+            HotelBooking booking1 = new HotelBooking();
+            booking1.DisplayBooking();
+
+            // Using Parameterized Constructor
+            HotelBooking booking2 = new HotelBooking("Charan", "Deluxe", 3);
+            booking2.DisplayBooking();
+
+            // Using Copy Constructor
+            HotelBooking booking3 = new HotelBooking(booking2);
+            booking3.DisplayBooking();
 
         }
     }
