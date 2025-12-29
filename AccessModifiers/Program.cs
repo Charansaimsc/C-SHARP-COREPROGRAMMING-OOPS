@@ -23,17 +23,22 @@ namespace AcessModifiers
             //pg.DisplayPostgraduateDetails();
 
 
-            Book e = new EBook(
-            "978-0132350884",
-            "Clean Code",
-            "Robert C. Martin",
-            "PDF"
-        );
+            //    Book e = new EBook(
+            //    "978-0132350884",
+            //    "Clean Code",
+            //    "Robert C. Martin",
+            //    "PDF"
+            //);
 
-            ((EBook)e).DisplayEBookDetails();
+            //    ((EBook)e).DisplayEBookDetails();
 
-            // Accessing public member
-            Console.WriteLine("ISBN from Main: " + e.ISBN);
+            //    // Accessing public member
+            //    Console.WriteLine("ISBN from Main: " + e.ISBN);
+
+
+            Manager  e1 = new Manager(101, "cse", 1000, "good");
+            e1.SetSalary(100444);
+            e1.Display();
         }
     }
 }
