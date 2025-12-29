@@ -36,9 +36,14 @@ namespace AcessModifiers
             //    Console.WriteLine("ISBN from Main: " + e.ISBN);
 
 
-            Manager  e1 = new Manager(101, "cse", 1000, "good");
-            e1.SetSalary(100444);
-            e1.Display();
+            //Manager  e1 = new Manager(101, "cse", 1000, "good");
+            //e1.SetSalary(100444);
+            //e1.Display();
+
+
+            BankAccount b1 = new BankAccount(12345, 10000, "sai");
+            b1.setBalance(10022);
+            Console.WriteLine(b1.getBalance());
         }
     }
 }
