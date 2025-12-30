@@ -34,13 +34,31 @@ namespace keywords
 
 
 
-            Student s1 = new Student("sai", 10, 'c');
-            Student s2 = new Student("sai", 10, 'c');
-            if(s1 is Student)
+            //Student s1 = new Student("sai", 10, 'c');
+            //Student s2 = new Student("sai", 10, 'c');
+            //if(s1 is Student)
+            //{
+            //    s1.Display();
+            //    Student.DisplayTotalStudents();
+            //}
+
+
+
+            Patient p1 = new Patient("Sai", 22, "Fever", 101);
+            Patient p2 = new Patient("Ravi", 30, "Fracture", 102);
+
+            if (p1 is Patient)
             {
-                s1.Display();
-                Student.DisplayTotalStudents();
+                p1.DisplayDetails();
             }
+
+            if (p2 is Patient)
+            {
+                p2.DisplayDetails();
+            }
+
+            Patient.GetTotalPatients();
         }
     }
+    
 }
