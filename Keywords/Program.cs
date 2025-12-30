@@ -44,20 +44,32 @@ namespace keywords
 
 
 
-            Patient p1 = new Patient("Sai", 22, "Fever", 101);
-            Patient p2 = new Patient("Ravi", 30, "Fracture", 102);
+            //    Patient p1 = new Patient("Sai", 22, "Fever", 101);
+            //    Patient p2 = new Patient("Ravi", 30, "Fracture", 102);
 
-            if (p1 is Patient)
-            {
-                p1.DisplayDetails();
-            }
+            //    if (p1 is Patient)
+            //    {
+            //        p1.DisplayDetails();
+            //    }
 
-            if (p2 is Patient)
-            {
-                p2.DisplayDetails();
-            }
+            //    if (p2 is Patient)
+            //    {
+            //        p2.DisplayDetails();
+            //    }
 
-            Patient.GetTotalPatients();
+            //    Patient.GetTotalPatients();
+
+
+
+            Product.UpdateDiscount(10);
+
+            Product p1 = new Product("Laptop", 60000, 1);
+            Product p2 = new Product("Mouse", 500, 2);
+
+            Product.DisplayProductDetails(p1);
+            Console.WriteLine("-------------------");
+            Product.DisplayProductDetails(p2);
+
         }
     }
     
