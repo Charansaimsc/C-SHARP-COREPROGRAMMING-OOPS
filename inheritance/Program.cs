@@ -52,16 +52,24 @@ namespace inheritance
             //order3.DisplayOrderStatus();
 
 
-            Course c1 = new Course("C# Basics", 20);
-            c1.DisplayDetails();
-            Course c2 = new OnlineCourse("OOP with C#", 30, "Udemy", true);
-            c2.DisplayDetails();
-            Course c3 = new PaidOnlineCourse("Advanced C#", 40, "Coursera", true, 5000, 20);
-            c3.DisplayDetails();
+            //Course c1 = new Course("C# Basics", 20);
+            //c1.DisplayDetails();
+            //Course c2 = new OnlineCourse("OOP with C#", 30, "Udemy", true);
+            //c2.DisplayDetails();
+            //Course c3 = new PaidOnlineCourse("Advanced C#", 40, "Coursera", true, 5000, 20);
+            //c3.DisplayDetails();
 
 
 
-
+            BankAccount acc1 = new SavingsAccount("SB101", 50000, 4.5);
+            acc1.DisplayAccountType();
+            acc1.DisplayDetails();
+            BankAccount acc2 = new CheckingAccount("CA201", 30000, 10000);
+            acc2.DisplayAccountType();
+            acc2.DisplayDetails();
+            BankAccount acc3 = new FixedDepositAccount("FD301", 100000, 24);
+            acc3.DisplayAccountType();
+            acc3.DisplayDetails();
 
 
 
