@@ -37,12 +37,19 @@ namespace inheritance
             //      book.DisplayInfo();
 
 
-            Device device = new Device(101, "ON");
-            device.DisplayStatus();
+            //Device device = new Device(101, "ON");
+            //device.DisplayStatus();
 
-            Device thermostat = new Thermostat(201, "ACTIVE", 24);
-            thermostat.DisplayStatus();
+            //Device thermostat = new Thermostat(201, "ACTIVE", 24);
+            //thermostat.DisplayStatus();
 
+
+            Order order1 = new Order("ORD101", "01-Jan-2026");
+            order1.DisplayOrderStatus();
+            Order order2 = new ShippedOrder("ORD102", "02-Jan-2026", 456789);
+            order2.DisplayOrderStatus();
+            Order order3 = new DeliveredOrder("ORD103", "03-Jan-2026", 987654, "05-Jan-2026");
+            order3.DisplayOrderStatus();
 
 
 
