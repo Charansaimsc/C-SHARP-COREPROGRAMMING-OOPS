@@ -27,16 +27,36 @@ namespace inheritance
             //        Console.WriteLine();
 
 
-            Book book = new Author(
-          "c#principles",
-          2004,
-          "Charan",
-          "agile"
-      );
+            //      Book book = new Author(
+            //    "c#principles",
+            //    2004,
+            //    "Charan",
+            //    "agile"
+            //);
 
-            book.DisplayInfo();
-        
-    
+            //      book.DisplayInfo();
+
+
+            Device device = new Device(101, "ON");
+            device.DisplayStatus();
+
+            Device thermostat = new Thermostat(201, "ACTIVE", 24);
+            thermostat.DisplayStatus();
+
+
+
+
+
+
+
+
+
+
+
+
         }
+
+
     }
+    
 }
