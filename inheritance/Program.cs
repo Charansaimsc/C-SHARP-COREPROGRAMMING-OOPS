@@ -82,16 +82,23 @@ namespace inheritance
             //p3.DisplayRole();
             //p3.DisplayDetails();
 
-            Chef chef = new Chef("sai", 101);
-            Waiter waiter = new Waiter("charan", 201);
+            //Chef chef = new Chef("sai", 101);
+            //Waiter waiter = new Waiter("charan", 201);
 
-            chef.DisplayPersonInfo();
-            chef.PerformDuties();
+            //chef.DisplayPersonInfo();
+            //chef.PerformDuties();
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            waiter.DisplayPersonInfo();
-            waiter.PerformDuties();
+            //waiter.DisplayPersonInfo();
+            //waiter.PerformDuties();
+
+            ElectricVehicle ev = new ElectricVehicle(150, "Tesla Model S");
+            ev.DisplayDetails();
+            ev.Charge();
+            PetrolVehicle pv = new PetrolVehicle(180, "Hyundai Verna");
+            pv.DisplayDetails();
+            pv.Refuel();
 
         }
 
