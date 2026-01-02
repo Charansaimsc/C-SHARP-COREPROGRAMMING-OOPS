@@ -72,17 +72,26 @@ namespace inheritance
             //acc3.DisplayDetails();
 
 
-            Person p1 = new Teacher("Mr. Kumar", 40, "Mathematics");
-            p1.DisplayRole();
-            p1.DisplayDetails();
-            Person p2 = new Student("Anita", 16, "10th Grade");
-            p2.DisplayRole();
-            p2.DisplayDetails();
-            Person p3 = new Staff("Ramesh", 45, "Administration");
-            p3.DisplayRole();
-            p3.DisplayDetails();
+            //Person p1 = new Teacher("Mr. Kumar", 40, "Mathematics");
+            //p1.DisplayRole();
+            //p1.DisplayDetails();
+            //Person p2 = new Student("Anita", 16, "10th Grade");
+            //p2.DisplayRole();
+            //p2.DisplayDetails();
+            //Person p3 = new Staff("Ramesh", 45, "Administration");
+            //p3.DisplayRole();
+            //p3.DisplayDetails();
 
+            Chef chef = new Chef("sai", 101);
+            Waiter waiter = new Waiter("charan", 201);
 
+            chef.DisplayPersonInfo();
+            chef.PerformDuties();
+
+            Console.WriteLine();
+
+            waiter.DisplayPersonInfo();
+            waiter.PerformDuties();
 
         }
 
