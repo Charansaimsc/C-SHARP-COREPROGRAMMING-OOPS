@@ -44,13 +44,20 @@ namespace inheritance
             //thermostat.DisplayStatus();
 
 
-            Order order1 = new Order("ORD101", "01-Jan-2026");
-            order1.DisplayOrderStatus();
-            Order order2 = new ShippedOrder("ORD102", "02-Jan-2026", 456789);
-            order2.DisplayOrderStatus();
-            Order order3 = new DeliveredOrder("ORD103", "03-Jan-2026", 987654, "05-Jan-2026");
-            order3.DisplayOrderStatus();
+            //Order order1 = new Order("ORD101", "01-Jan-2026");
+            //order1.DisplayOrderStatus();
+            //Order order2 = new ShippedOrder("ORD102", "02-Jan-2026", 456789);
+            //order2.DisplayOrderStatus();
+            //Order order3 = new DeliveredOrder("ORD103", "03-Jan-2026", 987654, "05-Jan-2026");
+            //order3.DisplayOrderStatus();
 
+
+            Course c1 = new Course("C# Basics", 20);
+            c1.DisplayDetails();
+            Course c2 = new OnlineCourse("OOP with C#", 30, "Udemy", true);
+            c2.DisplayDetails();
+            Course c3 = new PaidOnlineCourse("Advanced C#", 40, "Coursera", true, 5000, 20);
+            c3.DisplayDetails();
 
 
 
