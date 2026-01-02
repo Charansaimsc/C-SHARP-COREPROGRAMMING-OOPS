@@ -14,18 +14,29 @@ namespace inheritance
             //e1.DisplayDetails();
             //Employee e2 = new Manager(100,"charan", 101, 1000.99);
             //e2 .DisplayDetails();
-            Vehicle[] vehicles =
-                   {
-            new Car(5, 180, "Petrol"),
-            new Truck(2000, 120, "Diesel"),
-            new Motorcycle(true, 150, "Petrol")
-        };
+            //    Vehicle[] vehicles =
+            //           {
+            //    new Car(5, 180, "Petrol"),
+            //    new Truck(2000, 120, "Diesel"),
+            //    new Motorcycle(true, 150, "Petrol")
+            //};
 
-            foreach (Vehicle v in vehicles)
-            {
-                v.DisplayInfo();
-                Console.WriteLine();
-            }
+            //    foreach (Vehicle v in vehicles)
+            //    {
+            //        v.DisplayInfo();
+            //        Console.WriteLine();
+
+
+            Book book = new Author(
+          "c#principles",
+          2004,
+          "Charan",
+          "agile"
+      );
+
+            book.DisplayInfo();
+        
+    
         }
     }
 }
