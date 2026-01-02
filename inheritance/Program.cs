@@ -61,18 +61,26 @@ namespace inheritance
 
 
 
-            BankAccount acc1 = new SavingsAccount("SB101", 50000, 4.5);
-            acc1.DisplayAccountType();
-            acc1.DisplayDetails();
-            BankAccount acc2 = new CheckingAccount("CA201", 30000, 10000);
-            acc2.DisplayAccountType();
-            acc2.DisplayDetails();
-            BankAccount acc3 = new FixedDepositAccount("FD301", 100000, 24);
-            acc3.DisplayAccountType();
-            acc3.DisplayDetails();
+            //BankAccount acc1 = new SavingsAccount("SB101", 50000, 4.5);
+            //acc1.DisplayAccountType();
+            //acc1.DisplayDetails();
+            //BankAccount acc2 = new CheckingAccount("CA201", 30000, 10000);
+            //acc2.DisplayAccountType();
+            //acc2.DisplayDetails();
+            //BankAccount acc3 = new FixedDepositAccount("FD301", 100000, 24);
+            //acc3.DisplayAccountType();
+            //acc3.DisplayDetails();
 
 
-
+            Person p1 = new Teacher("Mr. Kumar", 40, "Mathematics");
+            p1.DisplayRole();
+            p1.DisplayDetails();
+            Person p2 = new Student("Anita", 16, "10th Grade");
+            p2.DisplayRole();
+            p2.DisplayDetails();
+            Person p3 = new Staff("Ramesh", 45, "Administration");
+            p3.DisplayRole();
+            p3.DisplayDetails();
 
 
 
